@@ -1,0 +1,35 @@
+{
+  "nombreApp": "Gastos",
+  "rutas": [
+    {
+      "ruta": "presupuesto",
+      "icon": "attach_money",
+      "texto": "Presupuesto"
+    },
+    {
+      "ruta": "resumen",
+      "icon": "check_circle",
+      "texto": "Resumen Presupuesto"
+    },
+    {
+      "ruta": "movimientos",
+      "icon": "folder_open",
+      "texto": "Movimientos"
+    },
+    {
+      "ruta": "alertas",
+      "icon": "donut_large",
+      "texto": "Alertas"
+    },
+    {
+      "ruta": "comparar",
+      "icon": "donut_large",
+      "texto": "Compara - Presupuesto"
+    },
+    {
+      "ruta": "categorias",
+      "icon": "donut_large",
+      "texto": "Categorias"
+    }
+  ]
+}
