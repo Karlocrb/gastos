@@ -35,13 +35,13 @@ void initState(){
     
 }
 
-     get isEditMote => widget.categoria != null;
+  get isEditMote => widget.categoria != null;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(isEditMote ? 'Edit Categoria' : 'Add Categoria'),
+        title: Text(isEditMote ? 'Editar Categoria' : 'Agregar Categoria'),
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(16.0),
@@ -58,7 +58,7 @@ void initState(){
                 controller: _categoriaController,
                 validator: (value) {
                   if (value == null || value.isEmpty)
-                    return "Campo en Blanco corregir";
+                    return "Campo de Categoria en Blanco corregir";
                   return null;
                 },
                 decoration: InputDecoration(
@@ -69,7 +69,7 @@ void initState(){
               const SizedBox(height: 10.0),
               TextFormField(
                 focusNode: _subcategoriaNode,
-                controller: _categoriaController,
+                controller: _subcategoriaController,
                 maxLines: 4,
                 decoration: InputDecoration(
                   labelText: "Subcategoria",
@@ -96,7 +96,7 @@ void initState(){
                              categoria: _categoriaController.text,
                              subcategoria: _subcategoriaController.text
                            ); 
-                        await FirestoreService().addCategorias(Categorias());
+                        await FirestoreService().addCategorias(categorias);
                       }
                       Navigator.pop(context);
                     } catch (e) {
@@ -113,3 +113,6 @@ void initState(){
 
   }
 }
+//*---------------------------------------------*/
+//*          */
+//*---------------------------------------------*/

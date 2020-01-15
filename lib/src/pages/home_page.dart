@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:gastos/src/providers/menu_provider.dart';
 import 'package:gastos/src/utils/icono_string.dart';
 
-class HomePage extends StatelessWidget {
+class HomePages extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -51,4 +51,7 @@ class HomePage extends StatelessWidget {
     return opciones;
   }
 }
-//es  otra prueba git
+
+
+/* /es  otra prueba git
+ */
