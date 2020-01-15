@@ -4,23 +4,19 @@ import 'package:gastos/model/gastos_model.dart';
 
 
 class AddCategoriasPage extends StatefulWidget {
+  const AddCategoriasPage({Key key, this.categoria}) : super(key: key);
 
   final Categorias categoria;
-
-  const AddCategoriasPage({Key key, this.categoria}) : super(key: key);
 
   @override
   _AddCategoriasPageState createState() => _AddCategoriasPageState();
 }
 
 class _AddCategoriasPageState extends State<AddCategoriasPage> {
-
-GlobalKey <FormState> _key = GlobalKey<FormState>();
 TextEditingController _categoriaController;
+GlobalKey <FormState> _key = GlobalKey<FormState>();
 TextEditingController _subcategoriaController;
 FocusNode _subcategoriaNode;
-
- 
 
 @override
 void initState(){
@@ -80,7 +76,7 @@ void initState(){
               RaisedButton(
                 color: Theme.of(context).primaryColor,
                 textColor: Colors.white,
-                child: Text(isEditMote ? "Actualiza" : "Guardar"),
+                child: Text(isEditMote ? "Actualizar" : "Guardar"),
                 onPressed: () async {
                   if (_key.currentState.validate()) {
                     try {

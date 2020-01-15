@@ -4,7 +4,7 @@ import 'package:gastos/model/gastos_model.dart';
 import 'package:gastos/src/pages/add_categorias.dart';
 import 'package:gastos/src/pages/categorias_detail.dart';
 
-class HomePage extends StatelessWidget {
+class HomeCategorias extends StatelessWidget {
   void _deleteNote(BuildContext context, String id) async {
     if (await _showConfirmationDialog(context)) {
       try {
@@ -24,7 +24,7 @@ class HomePage extends StatelessWidget {
               actions: <Widget>[
                 FlatButton(
                   textColor: Colors.red,
-                  child: Text("Delete"),
+                  child: Text("Eliminar"),
                   onPressed: () => Navigator.pop(context, true),
                 ),
                 FlatButton(
