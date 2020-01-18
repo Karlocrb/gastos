@@ -30,6 +30,11 @@
       "ruta": "categorias",
       "icon": "donut_large",
       "texto": "Categorias"
+    },
+    {
+      "ruta": "pruebas",
+      "icon": "donut_large",
+      "texto": "Pruebas"
     }
   ]
 }

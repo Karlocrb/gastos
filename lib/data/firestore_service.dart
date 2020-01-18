@@ -16,7 +16,7 @@ class FirestoreService {
   factory FirestoreService() {
     return _firestoreService;
   }
-
+  
 //*----------------------------------------------------------------*/
 //                 *Lectura de la Base de Datos */
 //*----------------------------------------------------------------*/
