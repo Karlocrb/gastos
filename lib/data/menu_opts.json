@@ -32,8 +32,8 @@
       "texto": "Categorias"
     },
     {
-      "ruta": "pruebas",
-      "icon": "donut_large",
+      "ruta": "categoriasp",
+      "icon": "list",
       "texto": "Pruebas"
     }
   ]

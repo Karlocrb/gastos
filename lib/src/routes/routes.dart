@@ -17,7 +17,7 @@ Map<String, WidgetBuilder> getAplicationRoutes() {
     'alertas'      :  (BuildContext context) => AlertasPage(),
     'comparar'     :  (BuildContext context) => ComparaPresupuestoPage(),
     'categorias'   :  (BuildContext context) => HomeCategorias(),
-    'pruebas'      :  (BuildContext context) => CategoriasPruebas(),
+    'categoriasp'  :  (BuildContext context) => CategoriasPruebas()
 
   };
 }

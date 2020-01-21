@@ -7,7 +7,8 @@ final _cons = <String, IconData>{
  'folder_open'           : Icons.folder_open,
   'donut_large'          : Icons.donut_large,
   'attach_money'         : Icons.attach_money,
-  'check_circle'         : Icons.check_circle
+  'check_circle'         : Icons.check_circle,
+ 'list'                  : Icons.list
   
   
 };
